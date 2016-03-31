@@ -6,5 +6,6 @@
     <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
     <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/Fciencias</property>
     <property name="hibernate.connection.username">postgres</property>
+    <mapping resource="Mapeos/AlumnoTieneEscuela.hbm.xml"/>
   </session-factory>
 </hibernate-configuration>
